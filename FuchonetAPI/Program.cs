@@ -1,6 +1,7 @@
 //1. Using to Work with EntityFramework
-//using FuchonetAPI.DataAccess;
+using FuchonetAPI.DataAccess;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,7 @@ const string ConnectionName = "ConecctionSQL";
 var ConnectionString = builder.Configuration.GetConnectionString(ConnectionName);
 
 //3 TODO: Add Context
-//builder.Services.AddDbContext<FuchonetDBContext>(options => options.UseSqlServer(ConnectionString));
+builder.Services.AddDbContext<FuchonetDbContext>(options => options.UseSqlServer(ConnectionString));
 
 // Add services to the container.
 
@@ -37,3 +38,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//scafolt
+//Scaffold - DbContext "data source=DESKTOP-Q028E7G\SQLEXPRESS;initial catalog=FUCHONET;user id=rauder;password=153; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer - OutputDir Models - ContextDir DataAccess - Context FuchonetDbContext
