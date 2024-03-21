@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuchonetAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ac46deaf2b5e398c598349da4a8d67e54ee6c03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cede415387c622b2d2df53a710d7e6987499974a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuchonetAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuchonetAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
