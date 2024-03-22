@@ -366,3 +366,7 @@ FodyWeavers.xsd
 *.v2
 
 
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
