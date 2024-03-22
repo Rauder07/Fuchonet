@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using FuchonetAPI.Models;
 
-namespace FuchonetAPI.DataAccessTB
+namespace FuchonetAPI.DataAccess
 {
     public partial class FuchonetDbContext : DbContext
     {
