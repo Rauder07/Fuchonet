@@ -1,8 +1,9 @@
 //1. Using to Work with EntityFramework
 using FuchonetAPI.DataAccess;
+using FuchonetAPI.Paginator;
 using Microsoft.EntityFrameworkCore;
 using System;
-
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,9 @@ var ConnectionString = builder.Configuration.GetConnectionString(ConnectionName)
 
 //3 TODO: Add Context
 builder.Services.AddDbContext<FuchonetDbContext>(options => options.UseSqlServer(ConnectionString));
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IPagedList, PagedList>();
+builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 // Add services to the container.
 
 builder.Services.AddControllers();
