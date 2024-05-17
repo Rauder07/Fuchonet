@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+<<<<<<< Updated upstream:FuchonetAPI/DataAccess/FuchonetDbContext.cs
 using FuchonetAPI.Models;
+=======
+using Fuchonet.Entities.Models;
+>>>>>>> Stashed changes:Persistence/FuchonetDbContext.cs
 
 namespace FuchonetAPI.DataAccess
 {
@@ -398,6 +402,10 @@ namespace FuchonetAPI.DataAccess
                 entity.Property(e => e.UpdatedAt)
                     .HasColumnType("datetime")
                     .HasColumnName("updated_at");
+                entity.Property(e => e.StatusService)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("status_service");
 
                 entity.HasOne(d => d.Address)
                     .WithMany(p => p.ServiceAgrements)

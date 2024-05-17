@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
+<<<<<<< Updated upstream:FuchonetAPI/Models/Phone.cs
 namespace FuchonetAPI.Models
+=======
+namespace Fuchonet.Entities.Models
+>>>>>>> Stashed changes:Entities/Models/Phone.cs
 {
     public partial class Phone
     {

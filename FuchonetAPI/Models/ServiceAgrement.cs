@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
+<<<<<<< Updated upstream:FuchonetAPI/Models/ServiceAgrement.cs
 namespace FuchonetAPI.Models
+=======
+namespace Fuchonet.Entities.Models
+>>>>>>> Stashed changes:Entities/Models/ServiceAgrement.cs
 {
     public partial class ServiceAgrement
     {
@@ -22,6 +26,7 @@ namespace FuchonetAPI.Models
         public byte ContractMonth { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        public string? StatusService { get; set; }
 
         public virtual Address Address { get; set; } = null!;
         public virtual Customer Customer { get; set; } = null!;

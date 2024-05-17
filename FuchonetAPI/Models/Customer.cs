@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
+<<<<<<< Updated upstream:FuchonetAPI/Models/Customer.cs
 namespace FuchonetAPI.Models
+=======
+namespace Fuchonet.Entities.Models
+>>>>>>> Stashed changes:Entities/Models/Customer.cs
 {
     public partial class Customer
     {
