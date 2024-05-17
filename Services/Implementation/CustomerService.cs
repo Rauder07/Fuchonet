@@ -67,7 +67,6 @@ namespace Fuchonet.Services.Implementation
             //var sessionsQueryDTO = sessionsQuery.ProjectToType<CustomerDTO>();
             var sessionsQueryDTO = sessionsQuery.Adapt<List<CustomerDTO>>();
             
-
             return sessionsQueryDTO;
         }
 

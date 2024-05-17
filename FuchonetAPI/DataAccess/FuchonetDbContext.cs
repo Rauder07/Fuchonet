@@ -1,12 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-<<<<<<< Updated upstream:FuchonetAPI/DataAccess/FuchonetDbContext.cs
-using FuchonetAPI.Models;
-=======
 using Fuchonet.Entities.Models;
->>>>>>> Stashed changes:Persistence/FuchonetDbContext.cs
 
 namespace FuchonetAPI.DataAccess
 {

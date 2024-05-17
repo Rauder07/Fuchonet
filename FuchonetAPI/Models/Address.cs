@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-<<<<<<< Updated upstream:FuchonetAPI/Models/Address.cs
-namespace FuchonetAPI.Models
-=======
 namespace Fuchonet.Entities.Models
->>>>>>> Stashed changes:Entities/Models/Address.cs
 {
     public partial class Address
     {

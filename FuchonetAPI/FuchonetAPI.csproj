@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< Updated upstream:FuchonetAPI/FuchonetAPI.csproj
-=======
     <PackageReference Include="Mapster" Version="7.4.0" />
->>>>>>> Stashed changes:FuchonetAPI/Fuchonet.FuchonetAPI.csproj
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.2.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.29" />
@@ -26,10 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< Updated upstream:FuchonetAPI/FuchonetAPI.csproj
-    <Folder Include="DataAccess\" />
-    <Folder Include="Models\" />
-=======
     <Folder Include="Services\" />
   </ItemGroup>
 
@@ -38,7 +31,6 @@
     <ProjectReference Include="..\Persistence\Fuchonet.Persistence.csproj" />
     <ProjectReference Include="..\Repositories\Fuchonet.Repositories.csproj" />
     <ProjectReference Include="..\Services\Fuchonet.Services.csproj" />
->>>>>>> Stashed changes:FuchonetAPI/Fuchonet.FuchonetAPI.csproj
   </ItemGroup>
 
 </Project>

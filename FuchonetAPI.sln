@@ -3,9 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< Updated upstream
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuchonetAPI", "FuchonetAPI\FuchonetAPI.csproj", "{2302B8C2-AB61-4485-A206-FB4ABCD6809D}"
-=======
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuchonet.FuchonetAPI", "FuchonetAPI\Fuchonet.FuchonetAPI.csproj", "{2302B8C2-AB61-4485-A206-FB4ABCD6809D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{07D86480-6DBB-404F-B6DA-8AD1F8AF34B4}"
@@ -27,7 +24,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuchonet.Dto", "Dto\Fuchonet.Dto.csproj", "{CE56FC36-F6F9-4A69-9EDB-46131E63B88E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuchonet.Entities", "Entities\Fuchonet.Entities.csproj", "{0077879D-C53F-44B7-8135-7967630F28BF}"
->>>>>>> Stashed changes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuchonet.Services", "Services\Fuchonet.Services.csproj", "{CA196FD1-F834-419D-A5C4-DCC796E19465}"
 EndProject
@@ -43,8 +39,6 @@ Global
 		{2302B8C2-AB61-4485-A206-FB4ABCD6809D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2302B8C2-AB61-4485-A206-FB4ABCD6809D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2302B8C2-AB61-4485-A206-FB4ABCD6809D}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< Updated upstream
-=======
 		{84748FC6-F84D-49C8-81A4-C385DF63AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84748FC6-F84D-49C8-81A4-C385DF63AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84748FC6-F84D-49C8-81A4-C385DF63AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,13 +63,10 @@ Global
 		{54596C4C-06DA-40C0-802D-020B9CB524B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54596C4C-06DA-40C0-802D-020B9CB524B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54596C4C-06DA-40C0-802D-020B9CB524B3}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< Updated upstream
-=======
 	GlobalSection(NestedProjects) = preSolution
 		{84748FC6-F84D-49C8-81A4-C385DF63AEAF} = {60589DB1-A1C1-4EF2-B2EE-6F226C3E5B32}
 		{9DCBF03A-B0AD-4C98-B5C6-C720FFF0AA03} = {60589DB1-A1C1-4EF2-B2EE-6F226C3E5B32}
@@ -84,7 +75,6 @@ Global
 		{CA196FD1-F834-419D-A5C4-DCC796E19465} = {3F4A4CC4-BC86-41BE-A4BF-BD68269B09F2}
 		{54596C4C-06DA-40C0-802D-020B9CB524B3} = {3F4A4CC4-BC86-41BE-A4BF-BD68269B09F2}
 	EndGlobalSection
->>>>>>> Stashed changes
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD471199-B4F6-431C-BD09-0858D5BD1BEF}
 	EndGlobalSection

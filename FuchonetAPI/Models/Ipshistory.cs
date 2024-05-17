@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-<<<<<<< Updated upstream:FuchonetAPI/Models/Ipshistory.cs
-namespace FuchonetAPI.Models
-=======
 namespace Fuchonet.Entities.Models
->>>>>>> Stashed changes:Entities/Models/Ipshistory.cs
 {
     public partial class Ipshistory
     {

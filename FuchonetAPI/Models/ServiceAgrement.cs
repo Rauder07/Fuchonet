@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-<<<<<<< Updated upstream:FuchonetAPI/Models/ServiceAgrement.cs
-namespace FuchonetAPI.Models
-=======
 namespace Fuchonet.Entities.Models
->>>>>>> Stashed changes:Entities/Models/ServiceAgrement.cs
 {
     public partial class ServiceAgrement
     {

@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-<<<<<<< Updated upstream:FuchonetAPI/Models/Ip.cs
-namespace FuchonetAPI.Models
-=======
 namespace Fuchonet.Entities.Models
->>>>>>> Stashed changes:Entities/Models/Ip.cs
 {
     public partial class Ip
     {
